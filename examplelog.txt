@@ -1,0 +1,29 @@
+[2024-12-23 12:00:01] sshd[1234]: Accepted password for root from 192.168.1.10 port 22 ssh2
+[2024-12-23 12:01:00] sshd[1234]: Failed password for invalid user admin from 192.168.1.11 port 22 ssh2
+[2024-12-23 12:02:30] kernel: [12345.678901] EXT4-fs (sda1): re-mounted. Opts: (null)
+[2024-12-23 12:05:15] systemd[1]: Started MySQL Database Server.
+[2024-12-23 12:07:10] sshd[1256]: Failed password for root from 203.0.113.55 port 22 ssh2
+[2024-12-23 12:08:00] sshd[1265]: Accepted password for user1 from 192.168.1.10 port 22 ssh2
+[2024-12-23 12:09:50] sudo: pam_unix(sudo:session): session opened for user root by (uid=1001)
+[2024-12-23 12:12:30] apache2[1357]: AH00094: Command line: '/usr/sbin/apache2 -k start'
+[2024-12-23 12:15:40] systemd[1]: Stopping Apache Web Server...
+[2024-12-23 12:16:00] systemd[1]: apache2.service: Main process exited, code=exited, status=1/FAILURE
+[2024-12-23 12:17:15] sshd[1283]: Accepted publickey for user2 from 192.168.1.12 port 22 ssh2
+[2024-12-23 12:19:05] sshd[1302]: Failed password for root from 203.0.113.58 port 22 ssh2
+[2024-12-23 12:20:10] kernel: [12350.678902] audit: type=1100 audit(1608748810.012:123): apparmor="ALLOWED" operation="open" profile="docker-default" name="/etc/hostname" pid=12345 comm="docker"
+[2024-12-23 12:25:30] systemd[1]: Starting PostgreSQL Database Server...
+[2024-12-23 12:27:50] sshd[1325]: Accepted password for user3 from 192.168.1.13 port 22 ssh2
+[2024-12-23 12:30:00] authpriv[1412]: Authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.60
+[2024-12-23 12:32:00] systemd[1]: Starting NetworkManager...
+[2024-12-23 12:33:30] systemd[1]: Stopping PostgreSQL Database Server...
+[2024-12-23 12:35:00] systemd[1]: Started NetworkManager.
+[2024-12-23 12:36:45] sshd[1374]: Accepted password for user4 from 192.168.1.14 port 22 ssh2
+[2024-12-23 12:40:10] sshd[1395]: Failed password for root from 192.168.1.15 port 22 ssh2
+[2024-12-23 12:42:00] systemd[1]: Started OpenSSH Server.
+[2024-12-23 12:45:20] kernel: [12360.678902] EXT4-fs (sdb1): mounted with writeback data mode
+[2024-12-23 12:50:00] sudo: pam_unix(sudo:session): session closed for user root
+[2024-12-23 12:55:10] systemd[1]: Stopping NetworkManager...
+[2024-12-23 12:56:30] systemd[1]: NetworkManager.service: Main process exited, code=killed, status=15/TERM
+[2024-12-23 12:58:00] systemd[1]: Started SSH Server.
+[2024-12-23 12:59:00] systemd[1]: Starting Cron Daemon...
+[2024-12-23 13:00:30] cron[1425]: (root) RESTARTED service cron
