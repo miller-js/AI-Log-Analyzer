@@ -4,7 +4,7 @@ and saves the analysis results to a timestamped JSON file.
 It loads the logs, preprocesses them, sends batches of logs to the OpenAI API for analysis,
 and stores the results in a file with the current date and time for easy reference.
 
-Author: Miller Swank    12/24/2025
+Author: Miller Swank    12/24/2024
 """
 
 import json
